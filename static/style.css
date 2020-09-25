@@ -1,0 +1,137 @@
+*{
+    margin : 0px;
+    padding: 0px;
+    outline: none;
+    box-sizing: border-box;
+  }
+  
+  body{
+    height: 100vh;
+    background-color:#ffffff;
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .center{
+      width: 85rem;
+      height: 97vh;
+}
+
+.flex{
+  display: flex;
+  grid-row-gap: 20px;
+  justify-content: center;
+  align-items: center;
+}
+   
+  .header{
+  width: 21rem;
+  height: 97vh;
+  background-color: rgb(255, 255, 255);
+   overflow-y: scroll;
+  }
+  
+.box-quotes{
+   width: 60rem;
+  height: 97vh;
+  background-color: rgb(255, 255, 255);
+  overflow-y: scroll;
+  }
+  .author{
+    background-color:rgb(0, 118, 214) ;
+    color: white;
+    padding: 8px;
+
+  }
+  .auth{
+    color: white;
+    margin: 0px 25px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    letter-spacing: 2px;
+    font-family: 'Roboto', sans-serif;
+  }
+
+    ::-webkit-scrollbar {
+    width: 12px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px rgb(255, 255, 255); 
+    border-radius: 10px;
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: rgb(0, 118, 214); 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    opacity: .8;
+  }
+  .ul{
+    list-style: none;
+  }
+
+  .li{
+    background-color: rgb(255, 255, 255);
+    padding: 20px 0px;
+    margin: 0px 0px;
+    
+  }
+  .li:hover{
+    background-color: rgba(36, 148, 240, 0.274);
+    color: white;
+  }
+  .a{
+    text-align: center;
+    text-decoration: none;
+    color: rgb(0, 118, 214); 
+    cursor: pointer;
+    margin: 0px 25px;
+  }
+ 
+  .quotes{
+    background-color:rgb(0, 118, 214) ;
+    color: white;
+    padding: 8px;
+  }
+  .quo{
+    color: white;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    letter-spacing: 2px;
+    font-family: 'Roboto', sans-serif;
+  }
+
+  .text{
+    height: 81vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .c-text{
+    font-size: 50px;
+    margin-bottom: 10px;
+    color: rgb(0, 118, 214) ;
+    letter-spacing: 1px;
+    font-family: 'Roboto', sans-serif;
+  }
+  .learn{
+    margin-bottom: 10px;
+    text-align: left;
+    text-decoration: none;
+    color: rgb(0, 118, 214) ;
+    text-align: left;
+  }
+
+  .para{
+    max-width: 500px;
+    color: rgb(172, 172, 172);
+    
+  }
